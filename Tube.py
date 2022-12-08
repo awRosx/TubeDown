@@ -8,5 +8,5 @@ print('Title: ', yt.title)
 print('View: ', yt.views)
 
 yd = yt.streams.get_highest_resolution()
-yd.download('/TubeDown/videos')
+yd.download('/videos')
 print("Download complete!")
