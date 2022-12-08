@@ -1,7 +1,7 @@
 from pytube import YouTube
-from sys import argv
 
-link = argv[1]
+print('Please, add your link to Youtube video!')
+link = input()
 yt = YouTube(link)
 
 print('Title: ', yt.title)
